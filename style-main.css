@@ -1,0 +1,101 @@
+/*header*/
+div.name {
+    position: absolute;
+    top: 1;
+    font-family: ink free;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+/*navagation*/
+#navbar {
+    margin-right: 50px;
+    padding-bottom: 40px;
+}
+
+#nav, #nav ul {
+    padding: 0;
+    margin-right: 0;
+    list-style: none;
+}
+
+#nav a {
+    width: 60px;
+    text-decoration: none;
+    font-family: century gothic;
+    color: black;
+    padding: 10px;
+}
+
+#nav li {
+    text-align: center;
+    float: right;
+    width: 100px;
+}
+
+#nav a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+/*title*/
+h1 {
+    font-size: 20px;
+    font-weight: 100;
+    font-family: californian fb;
+    text-align: center;
+    padding-bottom: 20px;
+    clear: right;
+}
+
+/*images*/
+.column {
+    float: left;
+    width: 20%;
+    padding: 5px;
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align: center;
+  }
+  
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  /*heading two*/
+h2 {
+    font-family: californian fb;
+    text-align: center;
+    margin: 0;
+}
+
+/*paragraph element*/
+p {
+    font-family: century gothic;
+    font-size: 10px;
+}
+
+.row {
+    padding-top: 15px;
+
+}
+
+ /*footer*/
+ footer {
+     text-align: center;
+     padding-top: 20px;
+ }
+
+
+
+@media screen and (min-width:150px) {
+
+    #navbar {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+   
+}

@@ -1,0 +1,17 @@
+@supports (grid-area: auto) {
+
+    @media screen and (min-width: 27em) {
+
+
+.site {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+    justify-content: space-evenly;
+    padding: 30px;
+    background-color: white;
+    border: 100px solid black;
+    margin-top: 2%;
+} 
+    }
+}
